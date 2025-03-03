@@ -1,0 +1,11 @@
+{
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 1
+    }
+}

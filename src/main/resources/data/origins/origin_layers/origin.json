@@ -1,9 +1,11 @@
 {
   "replace": false,
   "origins": [
-    "beasts_origins:naga",
-    "beasts_origins:vampire",
     "beasts_origins:werewolf",
-    "beasts_origins:wendigo"
+    "beasts_origins:naga",
+    "beasts_origins:wendigo",
+    "beasts_origins:vampire",
+    "beasts_origins:gargoyle",
+    "beasts_origins:chimera"
   ]
 }

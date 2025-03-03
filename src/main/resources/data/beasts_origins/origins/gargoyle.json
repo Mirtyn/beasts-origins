@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "beasts_origins:gargoyle/stone_skin",
+        "beasts_origins:gargoyle/perch",
+        "beasts_origins:gargoyle/statue",
+        "beasts_origins:gargoyle/statue_effect",
+        "beasts_origins:gargoyle/cursed_relic",
+        "beasts_origins:gargoyle/hollow_core",
+        "beasts_origins:gargoyle/weighted_stone"
+    ],
+    "icon": {
+        "item": "minecraft:coast_armor_trim_smithing_template"
+    },
+    "impact": 2
+}

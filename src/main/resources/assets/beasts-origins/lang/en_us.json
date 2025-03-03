@@ -151,5 +151,27 @@
   "power.beasts_origins.chimera/super_agility.description": "One of the five random powers. This power gives you increased speed, jump boost and haste but you get weakness and less health.",
 
   "power.beasts_origins.chimera/super_strength.name": "Super Strength",
-  "power.beasts_origins.chimera/super_strength.description": "One of the five random powers. This power gives you increased strength and resistance but heavily slows you down and you need more food."
+  "power.beasts_origins.chimera/super_strength.description": "One of the five random powers. This power gives you increased strength and resistance but heavily slows you down and you need more food.",
+
+
+  "origin.beasts_origins.gargoyle.name": "Gargoyle",
+  "origin.beasts_origins.gargoyle.description": "A living statue of stone, the Gargoyle is a sturdy and unyielding guardian, but its heavy frame and earthen form make movement a challenge.",
+
+  "power.beasts_origins.gargoyle/cursed_relic.name": "Cursed Relic",
+  "power.beasts_origins.gargoyle/cursed_relic.description": "The lower your health the weaker you get. When you have four hearts or less you get mining fatigue. When you have two hearts or less you get slowness II. And when you have one heart or less you get blindness.",
+
+  "power.beasts_origins.gargoyle/hollow_core.name": "Hollow Core",
+  "power.beasts_origins.gargoyle/hollow_core.description": "You take double damage from explosions.",
+
+  "power.beasts_origins.gargoyle/perch.name": "Perch",
+  "power.beasts_origins.gargoyle/perch.description": "While you sneak you slowly regenerate health.",
+
+  "power.beasts_origins.gargoyle/statue.name": "Statue",
+  "power.beasts_origins.gargoyle/statue.description": "You can turn into a statue that takes no damage or knockback and cannot move. While a statue your armor breaks 5 times as fast and you can't pickup items or fly with an elytra. You get blindness while in statue form. Explosions will break your statue form and heavily damage your armor.",
+
+  "power.beasts_origins.gargoyle/stone_skin.name": "Stone Skin",
+  "power.beasts_origins.gargoyle/stone_skin.description": "You have natural armor and knockback resistance but are slower. Arrows and projectiles do 50% less damage.",
+
+  "power.beasts_origins.gargoyle/weighted_stone.name": "Weighted Stone",
+  "power.beasts_origins.gargoyle/weighted_stone.description": "You cannot swim or sprint."
 }

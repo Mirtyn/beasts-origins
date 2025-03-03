@@ -1,0 +1,216 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:gargoyle/statue"
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 10,
+        "tick_rate": 5,
+        "effects": [
+            {
+                "effect": "minecraft:resistance",
+                "duration": 10,
+                "amplifier": 4,
+                "show_particles": true,
+                "show_icon": false
+            }
+        ]
+    },
+    "key2": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:gargoyle/statue"
+        },
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.movement_speed",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    },
+    "key3": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:gargoyle/statue"
+        },
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "head",
+                    "action": {
+                        "type": "origins:damage",
+                        "amount": 5
+                    }
+                },
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "chest",
+                    "action": {
+                        "type": "origins:damage",
+                        "amount": 5
+                    }
+                },
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "legs",
+                    "action": {
+                        "type": "origins:damage",
+                        "amount": 5
+                    }
+                },
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "feet",
+                    "action": {
+                        "type": "origins:damage",
+                        "amount": 5
+                    }
+                }
+            ]
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "key4": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:gargoyle/statue"
+        },
+        "type": "origins:prevent_item_pickup",
+        "priority": 0
+    },
+    "key5": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:gargoyle/statue"
+        },
+        "type": "origins:prevent_elytra_flight"
+    },
+    "key1": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.knockback_resistance",
+        "modifier": {
+            "operation": "set_total",
+            "value": 1
+        }
+    },
+    "key6": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:gargoyle/statue"
+        },
+        "type": "origins:prevent_sleep",
+        "message": "You can't sleep while a statue.",
+        "set_spawn_point": true,
+        "priority": 0
+    },
+    "key7": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:gargoyle/statue"
+        },
+        "type": "origins:model_color",
+        "red": 0.5,
+        "green": 0.5,
+        "blue": 0.5,
+        "alpha": 1
+    },
+    "key8": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:gargoyle/statue"
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 60,
+        "tick_rate": 5,
+        "effects": [
+            {
+                "effect": "minecraft:blindness",
+                "duration": 60,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": false
+            }
+        ]
+    },
+    "key9": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:gargoyle/statue"
+        },
+        "type": "origins:action_when_damage_taken",
+        "damage_condition": {
+            "type": "origins:explosive"
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:toggle",
+                    "power": "beasts_origins:gargoyle/statue"
+                },
+                {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:equipped_item_action",
+                            "equipment_slot": "head",
+                            "action": {
+                                "type": "origins:damage",
+                                "amount": 30
+                            }
+                        },
+                        {
+                            "type": "origins:equipped_item_action",
+                            "equipment_slot": "chest",
+                            "action": {
+                                "type": "origins:damage",
+                                "amount": 30
+                            }
+                        },
+                        {
+                            "type": "origins:equipped_item_action",
+                            "equipment_slot": "legs",
+                            "action": {
+                                "type": "origins:damage",
+                                "amount": 30
+                            }
+                        },
+                        {
+                            "type": "origins:equipped_item_action",
+                            "equipment_slot": "feet",
+                            "action": {
+                                "type": "origins:damage",
+                                "amount": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:damage",
+                    "amount": 10,
+                    "source": {
+                        "name": "explosion",
+                        "unblockable": true
+                    }
+                }
+            ]
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    }
+}

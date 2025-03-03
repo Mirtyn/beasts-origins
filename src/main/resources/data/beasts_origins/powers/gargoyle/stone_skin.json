@@ -1,0 +1,49 @@
+{
+    "type": "origins:multiple",
+    "key2": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.knockback_resistance",
+        "modifier": {
+            "operation": "set_base",
+            "value": 0.65
+        }
+    },
+    "key0": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 10,
+        "tick_rate": 5,
+        "effect": {
+            "effect": "minecraft:resistance",
+            "duration": 10,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "key3": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:projectile"
+        },
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.5
+        }
+    },
+    "key3_": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 10,
+        "tick_rate": 5,
+        "effect": {
+            "effect": "minecraft:slowness",
+            "duration": 10,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        }
+    }
+}
