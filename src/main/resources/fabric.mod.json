@@ -8,8 +8,9 @@
 		"MirtynK"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/beasts-origins",
+		"sources": "https://github.com/Mirtyn/beasts-origins/tree/master",
+		"issues": "https://github.com/Mirtyn/beasts-origins/issues"
 	},
 	"license": "MIT License",
 	"icon": "assets/beasts-origins/icon.png",
