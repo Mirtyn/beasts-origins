@@ -1,0 +1,73 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:chimera/powers_resource",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 20,
+        "tick_rate": 5,
+        "effects": [
+            {
+                "effect": "minecraft:speed",
+                "duration": 20,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": false
+            },
+            {
+                "effect": "minecraft:jump_boost",
+                "duration": 20,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": false
+            },
+            {
+                "effect": "minecraft:haste",
+                "duration": 20,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": false
+            },
+            {
+                "effect": "minecraft:weakness",
+                "duration": 20,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": false
+            }
+        ]
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:chimera/powers_resource",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.max_health",
+        "modifier": {
+            "operation": "set_total",
+            "value": 16
+        }
+    },
+    "key2": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:chimera/powers_resource",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        "type": "origins:model_color",
+        "red": 0.6,
+        "green": 1,
+        "blue": 0.6,
+        "alpha": 1
+    }
+}

@@ -1,0 +1,581 @@
+{
+    "type": "origins:multiple",
+    "key1": {
+        "type": "origins:action_on_death",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:if_else_list",
+                "actions": [
+                    {
+                        "condition": {
+                            "type": "origins:resource",
+                            "resource": "beasts_origins:chimera/powers_resource",
+                            "comparison": "==",
+                            "compare_to": 0
+                        },
+                        "action": {
+                            "type": "origins:choice",
+                            "actions": [
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 1,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 2,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 3,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 4,
+                                        "operation": "set"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "condition": {
+                            "type": "origins:resource",
+                            "resource": "beasts_origins:chimera/powers_resource",
+                            "comparison": "==",
+                            "compare_to": 1
+                        },
+                        "action": {
+                            "type": "origins:choice",
+                            "actions": [
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 0,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 2,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 3,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 4,
+                                        "operation": "set"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "condition": {
+                            "type": "origins:resource",
+                            "resource": "beasts_origins:chimera/powers_resource",
+                            "comparison": "==",
+                            "compare_to": 2
+                        },
+                        "action": {
+                            "type": "origins:choice",
+                            "actions": [
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 0,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 1,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 3,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 4,
+                                        "operation": "set"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "condition": {
+                            "type": "origins:resource",
+                            "resource": "beasts_origins:chimera/powers_resource",
+                            "comparison": "==",
+                            "compare_to": 3
+                        },
+                        "action": {
+                            "type": "origins:choice",
+                            "actions": [
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 0,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 1,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 2,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 4,
+                                        "operation": "set"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "condition": {
+                            "type": "origins:resource",
+                            "resource": "beasts_origins:chimera/powers_resource",
+                            "comparison": "==",
+                            "compare_to": 4
+                        },
+                        "action": {
+                            "type": "origins:choice",
+                            "actions": [
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 0,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 1,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 2,
+                                        "operation": "set"
+                                    }
+                                },
+                                {
+                                    "weight": 1,
+                                    "element": {
+                                        "type": "origins:change_resource",
+                                        "resource": "beasts_origins:chimera/powers_resource",
+                                        "change": 3,
+                                        "operation": "set"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "key2": {
+        "type": "origins:action_on_wake_up",
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "beasts_origins:chimera/powers_resource",
+                        "comparison": "==",
+                        "compare_to": 0
+                    },
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 1,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 2,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 3,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 4,
+                                    "operation": "set"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "beasts_origins:chimera/powers_resource",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 0,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 2,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 3,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 4,
+                                    "operation": "set"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "beasts_origins:chimera/powers_resource",
+                        "comparison": "==",
+                        "compare_to": 2
+                    },
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 0,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 1,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 3,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 4,
+                                    "operation": "set"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "beasts_origins:chimera/powers_resource",
+                        "comparison": "==",
+                        "compare_to": 3
+                    },
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 0,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 1,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 2,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 4,
+                                    "operation": "set"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "beasts_origins:chimera/powers_resource",
+                        "comparison": "==",
+                        "compare_to": 4
+                    },
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 0,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 1,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 2,
+                                    "operation": "set"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "element": {
+                                    "type": "origins:change_resource",
+                                    "resource": "beasts_origins:chimera/powers_resource",
+                                    "change": 3,
+                                    "operation": "set"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "key3": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "0:chimera/powers_resource",
+                        "comparison": "==",
+                        "compare_to": 0
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "/title @s actionbar {\"bold\":true,\"color\":\"red\",\"shadow_color\":-8388351,\"text\":\"Super Strength\"}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "0:chimera/powers_resource",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "/title @s actionbar {\"bold\":true,\"color\":\"green\",\"shadow_color\":-14407831,\"text\":\"Super Agility\"}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "0:chimera/powers_resource",
+                        "comparison": "==",
+                        "compare_to": 2
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "/title @s actionbar {\"bold\":true,\"color\":\"#0091FF\",\"shadow_color\":-14407831,\"text\":\"Flight\"}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "0:chimera/powers_resource",
+                        "comparison": "==",
+                        "compare_to": 3
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "/title @s actionbar {\"bold\":true,\"color\":\"gray\",\"shadow_color\":-12763843,\"text\":\"Shadow\"}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "0:chimera/powers_resource",
+                        "comparison": "==",
+                        "compare_to": 4
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "/title @s actionbar {\"bold\":true,\"color\":\"#AD0B00\",\"shadow_color\":-8388351,\"text\":\"Burning Strength\"}"
+                    }
+                }
+            ]
+        }
+    }
+}

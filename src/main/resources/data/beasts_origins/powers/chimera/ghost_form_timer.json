@@ -1,0 +1,37 @@
+{
+    "hidden": true,
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1200,
+    "start_value": 0,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 5,
+        "icon_index": 0,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:gamemode",
+                            "gamemode": "survival"
+                        },
+                        {
+                            "type": "origins:gamemode",
+                            "gamemode": "adventure"
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "beasts_origins:chimera/powers_resource",
+                    "comparison": "==",
+                    "compare_to": 3
+                }
+            ]
+        }
+    }
+}

@@ -117,5 +117,39 @@
   "power.beasts_origins.wendigo/rumbling_stomach.description": "After eating food you will get weakness for 15 seconds.",
 
   "power.beasts_origins.wendigo/shadows_stalker.name": "Shadows Stalker",
-  "power.beasts_origins.wendigo/shadows_stalker.description": "While sneaking in the darkness you become invisible."
+  "power.beasts_origins.wendigo/shadows_stalker.description": "While sneaking in the darkness you become invisible.",
+
+
+  "origin.beasts_origins.chimera.name": "Chimera",
+  "origin.beasts_origins.chimera.description": "A monstrous fusion of beasts, the Chimera possesses overwhelming strength, agility, and the power to shift forms, but its unstable nature comes at a cost.",
+
+  "power.beasts_origins.chimera/burning_strength.name": "Burning Strength",
+  "power.beasts_origins.chimera/burning_strength.description": "One of the five random powers. You are immune to fire and lava. When you hit an entity they get set on fire. When you are in water or standing in the rain you will take damage.",
+
+  "power.beasts_origins.chimera/demon_form.name": "Demon Form",
+  "power.beasts_origins.chimera/demon_form.description": "While having burning strength you can turn into a demon with extra strength, speed and health. But you will be slowed, gain mining fatigue and your metabolism will increase heavily. The negative effects will last longer.",
+
+  "power.beasts_origins.chimera/flight.name": "Flight",
+  "power.beasts_origins.chimera/flight.description": "One of the five random powers. This power gives you wings and night vision but you have less health.",
+
+  "power.beasts_origins.chimera/ghost_form.name": "Ghost Form",
+  "power.beasts_origins.chimera/ghost_form.description": "While having the shadow power you can turn into an invisible ghost with speed and weakness.",
+
+  "power.beasts_origins.chimera/golden_curse.name": "Golden Curse",
+  "power.beasts_origins.chimera/golden_curse.description": "You have a weakness to golden weapons. When you are hit by a golden sword or tool you will take extra damage.",
+
+  "power.beasts_origins.chimera/health_burst.name": "Health Burst",
+  "power.beasts_origins.chimera/health_burst.description": "While having super strength you can give yourself a health boost.",
+
+  "power.beasts_origins.chimera/powers.name": "Powers",
+  "power.beasts_origins.chimera/powers.description": "You have five super powers. You will only be able to use one of the five at random. They will change every time you sleep or die.",
+
+  "power.beasts_origins.chimera/shadow.name": "Shadow",
+  "power.beasts_origins.chimera/shadow.description": "One of the five random powers. This power makes you translucent and gives you the ability to become a ghost. While a ghost you gain speed but also get weakness. This power also lowers your health.",
+
+  "power.beasts_origins.chimera/super_agility.name": "Super Agility",
+  "power.beasts_origins.chimera/super_agility.description": "One of the five random powers. This power gives you increased speed, jump boost and haste but you get weakness and less health.",
+
+  "power.beasts_origins.chimera/super_strength.name": "Super Strength",
+  "power.beasts_origins.chimera/super_strength.description": "One of the five random powers. This power gives you increased strength and resistance but heavily slows you down and you need more food."
 }

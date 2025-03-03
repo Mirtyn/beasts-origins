@@ -1,0 +1,99 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:chimera/powers_resource",
+            "comparison": "==",
+            "compare_to": 4
+        },
+        "type": "origins:model_color",
+        "red": 0.8,
+        "green": 0.4,
+        "blue": 0.4,
+        "alpha": 1
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:chimera/powers_resource",
+            "comparison": "==",
+            "compare_to": 4
+        },
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.max_health",
+        "modifier": {
+            "operation": "set_base",
+            "value": 20
+        }
+    },
+    "key2": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:chimera/powers_resource",
+            "comparison": "==",
+            "compare_to": 4
+        },
+        "type": "origins:fire_immunity"
+    },
+    "key3": {
+        "type": "origins:lava_vision",
+        "s": 0,
+        "v": 3
+    },
+    "key4": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:chimera/powers_resource",
+            "comparison": "==",
+            "compare_to": 4
+        },
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:set_on_fire",
+            "duration": 3
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "key5": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "beasts_origins:chimera/powers_resource",
+                    "comparison": "==",
+                    "compare_to": 4
+                },
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:in_rain"
+                        },
+                        {
+                            "type": "origins:fluid_height",
+                            "fluid": "minecraft:water",
+                            "comparison": "!=",
+                            "compare_to": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:damage_over_time",
+        "interval": 5,
+        "onset_delay": 0,
+        "damage": 1,
+        "damage_easy": 1,
+        "damage_source": {
+            "name": "hurt_by_water",
+            "bypasses_armor": true,
+            "unblockable": true
+        },
+        "protection_effectiveness": 1
+    }
+}

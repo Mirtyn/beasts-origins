@@ -1,0 +1,60 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:chimera/powers_resource",
+            "comparison": "==",
+            "compare_to": 2
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 210,
+        "tick_rate": 5,
+        "effect": {
+            "effect": "minecraft:night_vision",
+            "duration": 210,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:chimera/powers_resource",
+            "comparison": "==",
+            "compare_to": 2
+        },
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.max_health",
+        "modifier": {
+            "operation": "set_total",
+            "value": 16
+        }
+    },
+    "key2": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:chimera/powers_resource",
+            "comparison": "==",
+            "compare_to": 2
+        },
+        "type": "origins:model_color",
+        "red": 0.6,
+        "green": 0.6,
+        "blue": 1,
+        "alpha": 1
+    },
+    "key3": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:chimera/powers_resource",
+            "comparison": "==",
+            "compare_to": 2
+        },
+        "type": "origins:elytra_flight",
+        "render_elytra": true
+    }
+}

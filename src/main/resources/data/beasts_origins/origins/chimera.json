@@ -1,0 +1,22 @@
+{
+    "powers": [
+        "beasts_origins:chimera/powers",
+        "beasts_origins:chimera/powers_resource",
+        "beasts_origins:chimera/super_strength",
+        "beasts_origins:chimera/health_burst",
+        "beasts_origins:chimera/health_burst_timer",
+        "beasts_origins:chimera/super_agility",
+        "beasts_origins:chimera/flight",
+        "beasts_origins:chimera/shadow",
+        "beasts_origins:chimera/ghost_form",
+        "beasts_origins:chimera/ghost_form_timer",
+        "beasts_origins:chimera/burning_strength",
+        "beasts_origins:chimera/demon_form",
+        "beasts_origins:chimera/demon_form_timer",
+        "beasts_origins:chimera/golden_curse"
+    ],
+    "icon": {
+        "item": "minecraft:pufferfish_bucket"
+    },
+    "impact": 3
+}
