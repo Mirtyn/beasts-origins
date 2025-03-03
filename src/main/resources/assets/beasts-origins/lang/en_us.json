@@ -1,0 +1,22 @@
+{
+  "origin.beasts_origins.naga.name": "Naga",
+  "origin.beasts_origins.naga.description": "Nagas are serpentine beings who thrive in water with enhanced agility and venomous attacks but weaken when dry or in cold environments.",
+
+  "power.beasts_origins.naga/cold_blooded.name": "Cold Blooded",
+  "power.beasts_origins.naga/cold_blooded.description": "You get slowness in cold biomes and get regeneration in warm biomes.",
+
+  "power.beasts_origins.naga/dehydration.name": "Dehydration",
+  "power.beasts_origins.naga/dehydration.description": "If you stay out of the water for to long you will get weakness and start to exhaust untill you rehydrate.",
+
+  "power.beasts_origins.naga/fragile_body.name": "Fragile Body",
+  "power.beasts_origins.naga/fragile_body.description": "Your max health is lowered by three hearts.",
+
+  "power.beasts_origins.naga/hydration_power.name": "Hydration Power",
+  "power.beasts_origins.naga/hydration_power.description": "You swim much faster in water and you gain a speed boost in the rain.",
+
+  "power.beasts_origins.naga/poison_shield.name": "Poison Shield",
+  "power.beasts_origins.naga/poison_shield.description": "You are immune to poison.",
+
+  "power.beasts_origins.naga/venomous_touch.name": "Venomous Touch",
+  "power.beasts_origins.naga/venomous_touch.description": "When you hit an entity with your hand the entity gets poisoned."
+}

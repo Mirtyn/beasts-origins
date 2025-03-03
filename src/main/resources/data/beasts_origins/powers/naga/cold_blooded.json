@@ -1,0 +1,68 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:biome",
+            "biomes": [
+                "minecraft:snowy_plains",
+                "minecraft:ice_spikes",
+                "minecraft:snowy_taiga",
+                "minecraft:grove",
+                "minecraft:snowy_slopes",
+                "minecraft:frozen_peaks",
+                "minecraft:jagged_peaks",
+                "minecraft:frozen_river",
+                "minecraft:snowy_beach",
+                "minecraft:frozen_ocean",
+                "minecraft:deep_frozen_ocean"
+            ]
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 210,
+        "tick_rate": 5,
+        "effect": {
+            "effect": "minecraft:slowness",
+            "duration": 210,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:biome",
+            "biomes": [
+                "minecraft:desert",
+                "minecraft:savanna",
+                "minecraft:savanna_plateau",
+                "minecraft:badlands",
+                "minecraft:eroded_badlands",
+                "minecraft:wooded_badlands",
+                "minecraft:stony_peaks",
+                "minecraft:warm_ocean",
+                "minecraft:nether_wastes",
+                "minecraft:warped_forest",
+                "minecraft:crimson_forest",
+                "minecraft:soul_sand_valley",
+                "minecraft:basalt_deltas",
+                "minecraft:jungle",
+                "minecraft:sparse_jungle",
+                "minecraft:bamboo_jungle"
+            ]
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 210,
+        "tick_rate": 5,
+        "effect": {
+            "effect": "minecraft:regeneration",
+            "duration": 210,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}

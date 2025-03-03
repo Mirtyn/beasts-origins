@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "beasts_origins:naga/cold_blooded",
+        "beasts_origins:naga/dehydration",
+        "beasts_origins:naga/dehydration_effect",
+        "beasts_origins:naga/dehydration_resource",
+        "beasts_origins:naga/hydration_power",
+        "beasts_origins:naga/venomous_touch",
+        "beasts_origins:naga/poison_shield",
+        "beasts_origins:naga/fragile_body"
+    ],
+    "icon": {
+        "item": "minecraft:water_bucket"
+    },
+    "impact": 1,
+    "loading_priority": 1
+}

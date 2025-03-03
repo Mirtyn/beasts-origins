@@ -1,0 +1,43 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:sprinting"
+        },
+        "type": "origins:action_over_time",
+        "interval": 200,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "beasts_origins:naga/dehydration_resource",
+            "change": -1,
+            "operation": "add"
+        }
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:sprinting"
+        },
+        "type": "origins:action_over_time",
+        "interval": 130,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "beasts_origins:naga/dehydration_resource",
+            "change": -1,
+            "operation": "add"
+        }
+    },
+    "key2": {
+        "condition": {
+            "type": "origins:on_fire"
+        },
+        "type": "origins:action_over_time",
+        "interval": 15,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "beasts_origins:naga/dehydration_resource",
+            "change": -1,
+            "operation": "add"
+        }
+    }
+}

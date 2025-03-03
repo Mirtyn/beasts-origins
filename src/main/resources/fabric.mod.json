@@ -23,11 +23,7 @@
 		]
 	},
 	"mixins": [
-		"beasts-origins.mixins.json",
-		{
-			"config": "beasts-origins.mixins.json",
-			"environment": "client"
-		}
+		"beasts-origins.mixins.json"
 	],
 	"depends": {
 		"fabricloader": "*",

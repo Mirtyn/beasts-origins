@@ -1,0 +1,8 @@
+{
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.max_health",
+    "modifier": {
+        "operation": "set_total",
+        "value": 14
+    }
+}

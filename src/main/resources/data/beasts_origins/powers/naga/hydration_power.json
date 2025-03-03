@@ -1,0 +1,69 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": "!=",
+            "compare_to": 0
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 210,
+        "tick_rate": 5,
+        "effect": {
+            "effect": "minecraft:dolphins_grace",
+            "duration": 210,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:in_rain"
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 210,
+        "tick_rate": 5,
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 210,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+    "key2": {
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": "!=",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "beasts_origins:naga/dehydration_resource",
+            "change": 4,
+            "operation": "add"
+        }
+    },
+    "key3": {
+        "condition": {
+            "type": "origins:in_rain"
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "beasts_origins:naga/dehydration_resource",
+            "change": 1,
+            "operation": "add"
+        }
+    }
+}
