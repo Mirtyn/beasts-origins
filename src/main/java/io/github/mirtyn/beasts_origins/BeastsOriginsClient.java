@@ -1,4 +1,4 @@
-package io.github.mirtyn;
+package io.github.mirtyn.beasts_origins;
 
 import net.fabricmc.api.ClientModInitializer;
 

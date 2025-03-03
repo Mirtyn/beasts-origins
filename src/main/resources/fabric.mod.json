@@ -19,7 +19,7 @@
 			"io.github.mirtyn.BeastsOrigins"
 		],
 		"client": [
-			"io.github.mirtyn.BeastsOriginsClient"
+			"io.github.mirtyn.beasts_origins.BeastsOriginsClient"
 		]
 	},
 	"mixins": [
