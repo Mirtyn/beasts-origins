@@ -1,0 +1,16 @@
+{
+    "hidden": true,
+    "condition": {
+        "inverted": true,
+        "type": "origins:power_active",
+        "power": "beasts_origins:vampire/bat_transformation"
+    },
+    "type": "origins:action_over_time",
+    "interval": 600,
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "beasts_origins:vampire/blood",
+        "change": -1,
+        "operation": "add"
+    }
+}

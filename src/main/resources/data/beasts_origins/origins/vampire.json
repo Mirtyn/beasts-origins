@@ -1,0 +1,24 @@
+{
+    "powers": [
+        "beasts_origins:vampire/night_stalker_night",
+        "beasts_origins:vampire/night_stalker_daylight",
+        "beasts_origins:vampire/blood",
+        "beasts_origins:vampire/blood_death",
+        "beasts_origins:vampire/blood_drainer",
+        "beasts_origins:vampire/blood_passive",
+        "beasts_origins:vampire/blood_nourishment",
+        "beasts_origins:vampire/bloodlust",
+        "beasts_origins:vampire/bat_transformation",
+        "beasts_origins:vampire/bat_transformation_active",
+        "beasts_origins:vampire/bat_vision_and_strenght",
+        "beasts_origins:vampire/cursed_by_the_sun",
+        "beasts_origins:vampire/cursed_by_the_sun_burn",
+        "beasts_origins:vampire/cursed_by_the_sun_slow",
+        "beasts_origins:vampire/cursed_by_the_sun_timer",
+        "beasts_origins:vampire/carnivore"
+    ],
+    "icon": {
+        "item": "minecraft:red_dye"
+    },
+    "impact": 3
+}

@@ -1,0 +1,62 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:vampire/blood",
+            "comparison": ">=",
+            "compare_to": 15
+        },
+        "type": "origins:action_over_time",
+        "interval": 80,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:regeneration",
+                "duration": 100,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": true
+            }
+        }
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "beasts_origins:vampire/blood",
+            "comparison": "<=",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 40,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slowness",
+                        "duration": 100,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                },
+                {
+                    "type": "origins:damage",
+                    "amount": 1,
+                    "source": {
+                        "name": "starve",
+                        "bypasses_armor": true,
+                        "unblockable": true
+                    }
+                },
+                {
+                    "type": "origins:feed",
+                    "food": -2,
+                    "saturation": -2
+                }
+            ]
+        }
+    }
+}

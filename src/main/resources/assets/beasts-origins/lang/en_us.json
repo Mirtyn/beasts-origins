@@ -6,7 +6,7 @@
   "power.beasts_origins.naga/cold_blooded.description": "You get slowness in cold biomes and get regeneration in warm biomes.",
 
   "power.beasts_origins.naga/dehydration.name": "Dehydration",
-  "power.beasts_origins.naga/dehydration.description": "If you stay out of the water for to long you will get weakness and start to exhaust untill you rehydrate.",
+  "power.beasts_origins.naga/dehydration.description": "If you stay out of the water for to long you will get weakness and start to exhaust until you rehydrate.",
 
   "power.beasts_origins.naga/fragile_body.name": "Fragile Body",
   "power.beasts_origins.naga/fragile_body.description": "Your max health is lowered by three hearts.",
@@ -18,5 +18,36 @@
   "power.beasts_origins.naga/poison_shield.description": "You are immune to poison.",
 
   "power.beasts_origins.naga/venomous_touch.name": "Venomous Touch",
-  "power.beasts_origins.naga/venomous_touch.description": "When you hit an entity with your hand the entity gets poisoned."
+  "power.beasts_origins.naga/venomous_touch.description": "When you hit an entity with your hand the entity gets poisoned.",
+
+
+  "origin.beasts_origins.vampire.name": "Vampire",
+  "origin.beasts_origins.vampire.description": "Vampires are cursed beings of the night, blessed with speed and regeneration in darkness but doomed to burn in sunlight, forever thirsting for the blood of the living.",
+
+  "power.beasts_origins.vampire/bat_transformation.name": "Bat Form",
+  "power.beasts_origins.vampire/bat_transformation.description": "You can use your bat wings at any time if you have any blood left. Your blood will go down at an increased rate while in bat form. ",
+
+  "power.beasts_origins.vampire/bat_vision_and_strength.name": "Bat Strength and Vision",
+  "power.beasts_origins.vampire/bat_vision_and_strength.description": "In bat form you will get weakness II and night vision.",
+
+  "power.beasts_origins.vampire/blood.name": "Blood",
+  "power.beasts_origins.vampire/blood.description": "Blood is a bar that needs to be filled in order for the vampire to survive. Your blood will always drain slowly.",
+
+  "power.beasts_origins.vampire/blood_drainer.name": "Blood Drainer",
+  "power.beasts_origins.vampire/blood_drainer.description": "If you kill an entity you will gain blood and heal a heart.",
+
+  "power.beasts_origins.vampire/blood_nourishment.name": "Blood Nourishment",
+  "power.beasts_origins.vampire/blood_nourishment.description": "Whenever you eat raw meat you will gain one blood.",
+
+  "power.beasts_origins.vampire/bloodlust.name": "Bloodlust",
+  "power.beasts_origins.vampire/bloodlust.description": "If you have 15 or more blood you gain regeneration. But if your blood meter falls on zero you will start to lose hunger and health and you will be slowed.",
+
+  "power.beasts_origins.vampire/carnivore.name": "Carnivore",
+  "power.beasts_origins.vampire/carnivore.description": "You cannot eat food other than meat.",
+
+  "power.beasts_origins.vampire/cursed_by_the_sun.name": "Cursed By The Sun",
+  "power.beasts_origins.vampire/cursed_by_the_sun.description": "If you stand in the sun you will start to get weakness and slowness, after a small amount of time you will start to burn. Unless if in bat form.",
+
+  "power.beasts_origins.vampire/night_stalker_night.name": "Night Stalker",
+  "power.beasts_origins.vampire/night_stalker_night.description": "You gain speed in the moonlight but get weakness in the sunlight."
 }

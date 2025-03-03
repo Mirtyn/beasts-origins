@@ -1,0 +1,29 @@
+{
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:power_active",
+                "power": "beasts_origins:vampire/bat_transformation"
+            },
+            {
+                "type": "origins:exposed_to_sun"
+            }
+        ]
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "beasts_origins:vampire/cursed_by_the_sun_timer",
+        "change": 1,
+        "operation": "add"
+    },
+    "falling_action": {
+        "type": "origins:change_resource",
+        "resource": "beasts_origins:vampire/cursed_by_the_sun_timer",
+        "change": 0,
+        "operation": "set"
+    }
+}

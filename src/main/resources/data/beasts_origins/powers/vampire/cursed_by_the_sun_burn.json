@@ -1,0 +1,12 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:resource",
+        "resource": "beasts_origins:vampire/cursed_by_the_sun_timer",
+        "comparison": ">=",
+        "compare_to": 6
+    },
+    "type": "origins:burn",
+    "interval": 5,
+    "burn_duration": 3
+}

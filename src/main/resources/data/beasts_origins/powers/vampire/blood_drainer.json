@@ -1,0 +1,22 @@
+{
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:heal",
+                "amount": 2
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "beasts_origins:vampire/blood",
+                "change": 4,
+                "operation": "add"
+            }
+        ]
+    },
+    "cooldown": 0,
+    "hud_render": {
+        "should_render": false
+    }
+}

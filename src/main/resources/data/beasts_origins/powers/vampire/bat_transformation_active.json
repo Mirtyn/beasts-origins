@@ -1,0 +1,26 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "key1": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:vampire/bat_transformation"
+        },
+        "type": "origins:action_over_time",
+        "interval": 180,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "beasts_origins:vampire/blood",
+            "change": -1,
+            "operation": "add"
+        }
+    },
+    "key3": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:vampire/bat_transformation"
+        },
+        "type": "origins:elytra_flight",
+        "render_elytra": true
+    }
+}

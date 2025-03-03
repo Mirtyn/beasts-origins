@@ -1,0 +1,27 @@
+{
+    "condition": {
+        "type": "origins:power_active",
+        "power": "beasts_origins:vampire/bat_transformation"
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 210,
+    "tick_rate": 5,
+    "effects": [
+        {
+            "effect": "minecraft:night_vision",
+            "duration": 220,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:weakness",
+            "duration": 60,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ]
+}
