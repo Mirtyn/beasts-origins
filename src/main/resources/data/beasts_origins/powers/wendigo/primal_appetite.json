@@ -1,0 +1,18 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "beasts_origins:raw_meats"
+                }
+            },
+            {
+                "type": "origins:food"
+            }
+        ]
+    }
+}

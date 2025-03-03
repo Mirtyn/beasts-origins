@@ -1,0 +1,15 @@
+{
+    "condition": {
+        "type": "origins:on_fire"
+    },
+    "type": "origins:action_over_time",
+    "interval": 18,
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 1,
+        "source": {
+            "name": "onFire",
+            "fire": true
+        }
+    }
+}

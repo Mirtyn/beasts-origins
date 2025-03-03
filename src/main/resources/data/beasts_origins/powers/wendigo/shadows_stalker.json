@@ -1,0 +1,18 @@
+{
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:brightness",
+                "comparison": "<=",
+                "compare_to": 0.1
+            },
+            {
+                "type": "origins:sneaking"
+            }
+        ]
+    },
+    "type": "origins:invisibility",
+    "render_armor": true,
+    "render_outline": true
+}

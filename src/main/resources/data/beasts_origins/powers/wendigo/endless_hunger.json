@@ -1,0 +1,20 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "type": "origins:exhaust",
+        "interval": 20,
+        "exhaustion": 1.132
+    },
+    "key1": {
+        "type": "origins:self_action_on_kill",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 2,
+            "saturation": 4
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    }
+}

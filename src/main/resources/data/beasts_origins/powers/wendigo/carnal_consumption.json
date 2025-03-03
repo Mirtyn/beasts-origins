@@ -1,0 +1,28 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 4,
+                    "saturation": 3
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "beasts_origins:raw_meats"
+            }
+        },
+        "trigger": "finish",
+        "priority": 0
+    },
+    "key1": {
+        "type": "origins:effect_immunity",
+        "effect": "minecraft:hunger"
+    }
+}

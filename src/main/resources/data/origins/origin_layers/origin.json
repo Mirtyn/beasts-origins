@@ -3,6 +3,7 @@
   "origins": [
     "beasts_origins:naga",
     "beasts_origins:vampire",
-    "beasts_origins:werewolf"
+    "beasts_origins:werewolf",
+    "beasts_origins:wendigo"
   ]
 }

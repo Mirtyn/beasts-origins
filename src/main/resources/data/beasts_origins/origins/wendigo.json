@@ -1,0 +1,20 @@
+{
+    "powers": [
+        "beasts_origins:wendigo/endless_hunger",
+        "beasts_origins:wendigo/hunger_driven",
+        "beasts_origins:wendigo/rumbling_stomach",
+        "beasts_origins:wendigo/primal_appetite",
+        "beasts_origins:wendigo/carnal_consumption",
+        "beasts_origins:wendigo/night_eyes",
+        "beasts_origins:wendigo/night_swiftness",
+        "beasts_origins:wendigo/predatory_vision",
+        "beasts_origins:wendigo/limb_stalker",
+        "beasts_origins:wendigo/shadows_stalker",
+        "beasts_origins:wendigo/cold_friend",
+        "beasts_origins:wendigo/fire_curse"
+    ],
+    "icon": {
+        "item": "minecraft:mutton"
+    },
+    "impact": 3
+}
