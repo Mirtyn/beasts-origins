@@ -1,0 +1,56 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "key1": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:werewolf/werewolf_form"
+        },
+        "type": "origins:prevent_sprinting"
+    },
+    "key3": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "beasts_origins:werewolf/werewolf_form"
+                },
+                {
+                    "type": "origins:daytime"
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "beasts_origins:werewolf/resource",
+            "change": -1,
+            "operation": "add"
+        }
+    },
+    "key3_": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "beasts_origins:werewolf/werewolf_form"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:daytime"
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 40,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "beasts_origins:werewolf/resource",
+            "change": -1,
+            "operation": "add"
+        }
+    }
+}

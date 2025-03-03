@@ -2,6 +2,7 @@
   "replace": false,
   "origins": [
     "beasts_origins:naga",
-    "beasts_origins:vampire"
+    "beasts_origins:vampire",
+    "beasts_origins:werewolf"
   ]
 }

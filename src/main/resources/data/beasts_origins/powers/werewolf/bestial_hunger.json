@@ -1,0 +1,22 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "beasts_origins:werewolf/werewolf_form"
+        },
+        "type": "origins:exhaust",
+        "interval": 12,
+        "exhaustion": 1
+    },
+    "key1": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:power_active",
+            "power": "beasts_origins:werewolf/werewolf_form"
+        },
+        "type": "origins:exhaust",
+        "interval": 40,
+        "exhaustion": 0.6
+    }
+}

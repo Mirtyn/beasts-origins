@@ -1,0 +1,94 @@
+{
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:power_active",
+                "power": "beasts_origins:werewolf/werewolf_form"
+            },
+            {
+                "type": "origins:resource",
+                "resource": "beasts_origins:werewolf/resource",
+                "comparison": ">=",
+                "compare_to": 15
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "beasts_origins:werewolf/resource",
+                "change": -15,
+                "operation": "add"
+            },
+            {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "minecraft:strength",
+                        "duration": 300,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:regeneration",
+                        "duration": 300,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:jump_boost",
+                        "duration": 300,
+                        "amplifier": 1,
+                        "show_particles": false,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:resistance",
+                        "duration": 300,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                ]
+            },
+            {
+                "type": "origins:spawn_particles",
+                "particle": "minecraft:angry_villager",
+                "count": 12,
+                "speed": 0.05,
+                "force": true,
+                "spread": {
+                    "x": 0.5,
+                    "y": 0.7,
+                    "z": 0.5
+                },
+                "offset_x": 0,
+                "offset_y": 0.5,
+                "offset_z": 0
+            },
+            {
+                "type": "origins:spawn_particles",
+                "particle": "minecraft:smoke",
+                "count": 38,
+                "speed": 0.1,
+                "force": true,
+                "offset_x": 0.5,
+                "offset_y": 0.5,
+                "offset_z": 0.5
+            }
+        ]
+    },
+    "cooldown": 10,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:food_level",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            {
+                "type": "origins:resource",
+                "resource": "beasts_origins:werewolf/resource",
+                "comparison": ">",
+                "compare_to": 0
+            }
+        ]
+    },
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "retain_state": false
+}

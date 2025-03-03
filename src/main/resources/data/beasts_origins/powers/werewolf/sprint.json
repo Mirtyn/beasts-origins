@@ -1,0 +1,36 @@
+{
+    "condition": {
+        "type": "origins:power_active",
+        "power": "beasts_origins:werewolf/werewolf_form"
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "beasts_origins:werewolf/resource",
+                "change": -1,
+                "operation": "add"
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:speed",
+                    "duration": 15,
+                    "amplifier": 3,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            }
+        ]
+    },
+    "cooldown": 12,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.sprint",
+        "continuous": true
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "powers": [
+        "beasts_origins:werewolf/werewolf_form",
+        "beasts_origins:werewolf/werewolf_active",
+        "beasts_origins:werewolf/werewolf_inactive",
+        "beasts_origins:werewolf/resource",
+        "beasts_origins:werewolf/transform_into",
+        "beasts_origins:werewolf/transform_out_of",
+        "beasts_origins:werewolf/transform_status_resource",
+        "beasts_origins:werewolf/claws",
+        "beasts_origins:werewolf/feral_beast",
+        "beasts_origins:werewolf/bestial_hunger",
+        "beasts_origins:werewolf/sprint",
+        "beasts_origins:werewolf/rage"
+    ],
+    "icon": {
+        "item": "minecraft:bone"
+    },
+    "impact": 2
+}

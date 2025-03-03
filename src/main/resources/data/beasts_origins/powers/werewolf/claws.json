@@ -1,0 +1,30 @@
+{
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:power_active",
+                "power": "beasts_origins:werewolf/werewolf_form"
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:empty"
+                }
+            }
+        ]
+    },
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 10,
+        "source": {
+            "name": "player"
+        }
+    },
+    "cooldown": 0,
+    "hud_render": {
+        "should_render": false
+    }
+}

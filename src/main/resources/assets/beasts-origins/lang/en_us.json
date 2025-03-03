@@ -49,5 +49,33 @@
   "power.beasts_origins.vampire/cursed_by_the_sun.description": "If you stand in the sun you will start to get weakness and slowness, after a small amount of time you will start to burn. Unless if in bat form.",
 
   "power.beasts_origins.vampire/night_stalker_night.name": "Night Stalker",
-  "power.beasts_origins.vampire/night_stalker_night.description": "You gain speed in the moonlight but get weakness in the sunlight."
+  "power.beasts_origins.vampire/night_stalker_night.description": "You gain speed in the moonlight but get weakness in the sunlight.",
+
+
+  "origin.beasts_origins.werewolf.name": "Werewolf",
+  "origin.beasts_origins.werewolf.description": "Werewolves are fierce shapeshifters who gain immense strength, speed, and agility in their beast form but struggle to maintain this form.",
+
+  "power.beasts_origins.werewolf/bestial_hunger.name": "Bestial Hunger",
+  "power.beasts_origins.werewolf/bestial_hunger.description": "While in werewolf form your hunger will drain faster. In human form you also will have an increased drain rate than a normal human.",
+
+  "power.beasts_origins.werewolf/claws.name": "Claws",
+  "power.beasts_origins.werewolf/claws.description": "When attacking with bare hands in werewolf form you do increased damage.",
+
+  "power.beasts_origins.werewolf/feral_beast.name": "Feral Beast",
+  "power.beasts_origins.werewolf/feral_beast.description": "Whenever you kill a mob you will gain some werewolf strength and hunger.",
+
+  "power.beasts_origins.werewolf/rage.name": "Rage",
+  "power.beasts_origins.werewolf/rage.description": "Activate while in werewolf form to gain strength I, regeneration I, jump boost II and resistance I for a short duration at the cost of werewolf strength.",
+
+  "power.beasts_origins.werewolf/resource.name": "Werewolf Strength",
+  "power.beasts_origins.werewolf/resource.description": "Werewolf strength is a bar that gets used by most of your abilities. At night it drains slower while in werewolf form and regenerates faster in human form.",
+
+  "power.beasts_origins.werewolf/sprint.name": "Wolf Sprint",
+  "power.beasts_origins.werewolf/sprint.description": "While in werewolf form you can sprint but it will cost werewolf strength.",
+
+  "power.beasts_origins.werewolf/transform_into.name": "Transformation",
+  "power.beasts_origins.werewolf/transform_into.description": "Whenever you transform into your werewolf form you gain absorption II. But when you transform back into your human form you get weakness and slowness for some time.",
+
+  "power.beasts_origins.werewolf/werewolf_form.name": "Werewolf Form",
+  "power.beasts_origins.werewolf/werewolf_form.description": "You can switch between your werewolf and human form at any time if you have any werewolf power and hunger left. If your hunger or werewolf power lands on zero you will go back to your human form."
 }

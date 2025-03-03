@@ -1,0 +1,23 @@
+{
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:feed",
+                "food": 1,
+                "saturation": 1
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "beasts_origins:werewolf/resource",
+                "change": 7,
+                "operation": "add"
+            }
+        ]
+    },
+    "cooldown": 0,
+    "hud_render": {
+        "should_render": false
+    }
+}
