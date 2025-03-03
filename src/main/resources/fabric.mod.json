@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"io.github.mirtyn.BeastsOrigins"
+			"io.github.mirtyn.beasts_origins.BeastsOrigins"
 		],
 		"client": [
 			"io.github.mirtyn.beasts_origins.BeastsOriginsClient"
@@ -25,7 +25,7 @@
 	"mixins": [
 		"beasts-origins.mixins.json",
 		{
-			"config": "beasts-origins.client.mixins.json",
+			"config": "beasts-origins.mixins.json",
 			"environment": "client"
 		}
 	],
