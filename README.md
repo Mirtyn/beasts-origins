@@ -62,6 +62,6 @@ Requires [Origins](https://www.curseforge.com/minecraft/mc-mods/origins) and [Fa
 - **Golden Curse:** Takes extra damage from golden weapons and tools.
 
 ## Links
-### Homepage: https://modrinth.com/mod/beasts-origins
-### Issues: https://github.com/Mirtyn/beasts-origins/issues
-### Wiki: https://github.com/Mirtyn/beasts-origins/wiki
+* Homepage: https://modrinth.com/mod/beasts-origins
+* Issues: https://github.com/Mirtyn/beasts-origins/issues
+* Wiki: https://github.com/Mirtyn/beasts-origins/wiki
