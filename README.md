@@ -1,6 +1,7 @@
 ## Description
 A plugin for the origins mod. It adds 6 origins themed around mythical beasts. Most have a high impact to the gameplay.
-Requires [Origins](https://modrinth.com/mod/origins).
+
+Requires [Origins](https://www.curseforge.com/minecraft/mc-mods/origins) and [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api).
 ## Features 6 Origins
 ### Werewolf
 - **Werewolf Form:** You can switch between your werewolf and human form if you have any werewolf power and hunger.
@@ -59,3 +60,8 @@ Requires [Origins](https://modrinth.com/mod/origins).
 - **Burning Strength:** One of the five powers. Immunity to fire and lava. Hit entities get set on fire. Water and rain damages you.
 - **Demon Form:** While having burning strength you can turn into a demon with extra strength, speed and health. But you'll be slowed, get mining fatigue and need more food.
 - **Golden Curse:** Takes extra damage from golden weapons and tools.
+
+## Links
+### Homepage: https://modrinth.com/mod/beasts-origins
+### Issues: https://github.com/Mirtyn/beasts-origins/issues
+### Wiki: https://github.com/Mirtyn/beasts-origins/wiki
