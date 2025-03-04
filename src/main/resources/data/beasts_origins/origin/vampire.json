@@ -18,7 +18,7 @@
         "beasts_origins:vampire/carnivore"
     ],
     "icon": {
-        "item": "minecraft:red_dye"
+        "id": "minecraft:red_dye"
     },
     "impact": 3
 }

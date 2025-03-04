@@ -9,7 +9,7 @@
         "beasts_origins:gargoyle/weighted_stone"
     ],
     "icon": {
-        "item": "minecraft:coast_armor_trim_smithing_template"
+        "id": "minecraft:coast_armor_trim_smithing_template"
     },
     "impact": 2
 }

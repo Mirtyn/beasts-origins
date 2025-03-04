@@ -10,8 +10,7 @@
         "beasts_origins:naga/fragile_body"
     ],
     "icon": {
-        "item": "minecraft:water_bucket"
+        "id": "minecraft:water_bucket"
     },
-    "impact": 1,
-    "loading_priority": 1
+    "impact": 1
 }

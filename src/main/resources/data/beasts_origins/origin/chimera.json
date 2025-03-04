@@ -16,7 +16,7 @@
         "beasts_origins:chimera/golden_curse"
     ],
     "icon": {
-        "item": "minecraft:pufferfish_bucket"
+        "id": "minecraft:pufferfish_bucket"
     },
     "impact": 3
 }

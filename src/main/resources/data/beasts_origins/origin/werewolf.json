@@ -14,7 +14,7 @@
         "beasts_origins:werewolf/rage"
     ],
     "icon": {
-        "item": "minecraft:bone"
+        "id": "minecraft:bone"
     },
     "impact": 2
 }

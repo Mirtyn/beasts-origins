@@ -14,7 +14,7 @@
         "beasts_origins:wendigo/fire_curse"
     ],
     "icon": {
-        "item": "minecraft:mutton"
+        "id": "minecraft:mutton"
     },
     "impact": 3
 }
