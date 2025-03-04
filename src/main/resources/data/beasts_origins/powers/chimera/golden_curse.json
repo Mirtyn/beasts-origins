@@ -8,7 +8,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "minecraft:golden_tools"
+                    "tag": "beasts_origins:golden_items"
                 }
             }
         }
